@@ -1,0 +1,82 @@
+
+/* @font-face{
+    src: url("../font/Product\ Sans\ Regular.ttf");
+    font-family: 'Product Sans';
+}
+@font-face{
+    src: url("../font/Product\ Sans\ Bold.ttf");
+    font-family: 'Product Sans';
+    font-weight: 700;
+}
+@font-face{
+    src: url("../font/Product\ Sans\ Italic.ttf");
+    font-family: 'Product Sans';
+    font-style: italic;
+}
+@font-face{
+    src: url("../font/Product\ Sans\ Bold\ Italic.ttf");
+    font-family: 'Product Sans';
+    font-weight: 700;
+    font-style: italic;
+} */
+* {
+    font-family: 'Product Sans', serif !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.first-text {
+    font-size: 2vw;
+    /* line-height: 0px; */
+    font-style: italic;
+}
+
+.header-heading {
+    font-size: 5vw;
+    line-height: 10px;
+    font-family: 'Lucida Bright';
+    font-weight: 900;
+}
+
+@media screen and (max-width: 960px) {
+    /* .card-left {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    } */
+}
+
+@media screen and (max-width: 600px) {
+    .first-text {
+        padding-top: 50px;
+        font-size: 20px;
+        
+        font-style: italic;
+    }
+    
+    .header-heading {
+        font-size: 35px;
+        font-family: 'Lucida Bright';
+        font-weight: 900;
+    }
+    .header-button {
+        padding: 0;
+    }
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>template1 - Index</title>
+        <link rel="stylesheet" href="css/uikit.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+    </head>
+    <body>
+        <!-- navbar section  -->
+        <div class="uk-position-relative">
+                <!-- <img src="images/s1.jpg" alt=""> -->
+                
+
+        <!-- end of navbar section  -->
+        <!-- slider section  -->
+        <div uk-slideshow="animation: fade" max-height="600">
+            <div class="uk-position-relative">
+                <ul class="uk-slideshow-items">
+                    <li>
+                        <img src="images/header3.jpg" alt="" uk-cover>
+                        <div class="uk-position-bottom uk-inline uk-padding-large" style="color: white;">
+                            <p class="first-text"><i>Art Of Getting What You Deserve</i> </p>
+                            <p class="header-heading">Success Of Design</p>
+                            <div class="uk-padding header-button">
+                                <button class="uk-button uk-button-danger ">Read Now</button>
+                                <button class="uk-button uk-button-default  " style="color: white;">Learn More</button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul> -->
+        </div>
+        <div class="uk-position-top" >
+            <div  uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 200" class="  uk-navbar-container">
+                <nav class="uk-container"  uk-navbar>
+
+                        <div class="uk-navbar-left ">
+                    
+                            <ul class="uk-navbar-nav">
+                                <li class="uk-active"><a href="#">
+                                    <img src="images/logo.png" alt="LOGO" style="min-width: 200px;">
+                                </a></li>
+                            </ul>
+                    
+                        </div>
+                    
+                        <div class="uk-navbar-right">
+                    
+                            <ul class="uk-navbar-nav uk-visible@m">
+                                <li class="uk-active"><a href="#top">HOME</a></li>
+                                <li class="uk-active"><a href="#top">PRODUCT</a></li>
+                                <li class="uk-active"><a href="#top">RESOURCES</a></li>
+                                <li class="uk-active"><a href="#top">ABOUT</a></li>
+                                <li class="uk-active"><a href="#top">CONTACT</a></li>
+                                <li class="uk-active"><a href="#offcanvas-usage"  uk-toggle><span uk-icon="icon: menu"></span></a></li>
+                                <!-- <li class="uk-hidden@m"><a href="#mobile-nav"  uk-icon="icon: menu" uk-toggle></a></li> -->
+                            </ul>
+                    
+                        </div>
+
+                        <!-- off-canvas  -->
+                        <div id="offcanvas-usage" uk-offcanvas>
+                            <div class="uk-offcanvas-bar">
+                                <button class="uk-offcanvas-close" type="button" uk-close></button>
+                                <ul  class="uk-nav uk-nav-parent-icon uk-list" data-uk-nav>
+                                        <li class="uk-active"><a href="#top">HOME</a></li>
+                                        <li class="uk-active"><a href="#top">PRODUCT</a></li>
+                                        <li class="uk-active"><a href="#top">RESOURCES</a></li>
+                                        <li class="uk-active"><a href="#top">ABOUT</a></li>
+                                        <li class="uk-active"><a href="#top">CONTACT</a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                    
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- slider section end  -->
+
+        <!-- content section  -->
+        <section class="" id="top">
+            <!-- <h3 class="uk-text-center">Hot Deals</h3> -->
+            <div uk-grid uk-height-match="target: .intro">
+                <div class="uk-width-1-2@s intro">
+                    <div class="uk-inline" style="background-image: url(images/item1.jpg);">
+                    <img src="images/item1.jpg" alt="" >
+                    <div class="uk-padding-large" >
+                        <div class="uk-card uk-position-center uk-card-default uk-padding">
+                            <h2 class="uk-text-center uk-padding-large" style="line-height: 0px;">Introduction</h2>
+                            <!-- <p><button class="uk-button uk-button-default uk-align-center">Shop Now</button></p> -->
+                        </div>
+                    </div>
+                </div>
+                    
+                </div>
+                <div class="uk-width-1-2@s intro">
+                    <div class="uk-padding-large" >
+                        <div class="">
+                            <p class="uk-text-center"><img src="icons/barcode.svg" alt="" width="50"></p>
+                            <h4 class="uk-text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, distinctio dolore! Iure facilis veritatis voluptates soluta dignissimos, ab officiis natus esse, ducimus inventore tempore odio itaque repellat, sed distinctio porro.</h4>
+                            <!-- <p><button class="uk-button uk-button-default uk-align-center">Shop Now</button></p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of content section  -->
+
+        <!-- content section  -->
+        <section class="" id="top">
+                <!-- <h3 class="uk-text-center">Hot Deals</h3> -->
+                <div uk-grid uk-height-match="target: .intro">
+                    <div class="uk-width-1-2@s intro">
+                        <div class="uk-padding-large" >
+                            <div class="">
+                                <p class="uk-text-center"><img src="icons/barcode.svg" alt="" width="50"></p>
+                                <h4 class="uk-text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, distinctio dolore! Iure facilis veritatis voluptates soluta dignissimos, ab officiis natus esse, ducimus inventore tempore odio itaque repellat, sed distinctio porro.</h4>
+                                <!-- <p><button class="uk-button uk-button-default uk-align-center">Shop Now</button></p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-2@s intro">
+                        <div class="uk-inline" style="background-image: url(images/item1.jpg);">
+                        <img src="images/item1.jpg" alt="" >
+                        <div class="uk-padding-large" >
+                            <div class="uk-card uk-position-center uk-card-default uk-padding">
+                                <h2 class="uk-text-center uk-padding-large" style="line-height: 0px;">About</h2>
+                                <!-- <p><button class="uk-button uk-button-default uk-align-center">Shop Now</button></p> -->
+                            </div>
+                        </div>
+                    </div>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+            <!-- end of content section  -->
+
+        <!-- News Letter Section -->
+        <section>
+            <div class="uk-container uk-padding">
+                <div uk-grid >
+                    <div class="uk-width-auto@m uk-text-center uk-align-center">
+                        <h2>NEWSLETTER</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur </p>
+                    </div>
+                    <div class="uk-width-expand@m uk-align-center">
+                       <p><input type="text" class="uk-input  uk-form-success uk-form-width-medium uk-form-width-large" placeholder="Subscribe For Letest update"><button class="uk-button uk-button-danger">Subscribe</button></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of news letter section  -->
+    <!-- footer  -->
+    <footer style="background: black; color: white;" id="footer">
+        <div class="uk-container uk-padding">
+            <!-- <h4 class="uk-text-center uk-padding-small uk-margin-remove">@Copy Ravikesh Yadav 2019</h4> -->
+            <div uk-grid>
+                <div  class="uk-width-2-5@m " >
+                    <h4 class="uk-text uk-text-center" style="color: white;">SOFA</h4>
+                    <p class="uk-text-meta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magnam atque qui illo sunt, aliquam culpa </p>
+                    <p class="uk-text-meta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magnam atque qui illo sunt, aliquam culpa </p>
+
+                </div>
+                <div class="uk-width-expand@m">
+                    <div class="uk-child-width-1-3@m" uk-grid>
+                        <div >
+                            <h4  style="color: white;">Information</h4>
+                            <ul class="uk-link">
+                                <li><a href="#" class="uk-text-meta">About</a></li>
+                                <li><a href="#" class="uk-text-meta">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div >
+                            <h4  style="color: white;">Services</h4>
+                            <ul class="uk-link">
+                                <li><a href="#" class="uk-text-meta">Buy</a></li>
+                                <li><a href="#" class="uk-text-meta">Sell</a></li>
+                            </ul>
+                        </div>
+                        <div >
+                            <h4  style="color: white;">Contact</h4>
+                            <ul class="uk-link">
+                                <li><a href="tel: +917411966489" class="uk-text-meta">+917411966489</a></li>
+                                <li><a href="#" class="uk-text-meta">ravikeshyadav4@gmail.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </footer>
+    </body>
+</html>
